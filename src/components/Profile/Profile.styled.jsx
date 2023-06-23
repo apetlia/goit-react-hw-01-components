@@ -21,23 +21,18 @@ export const UserImg = styled.img`
   border: 1px solid ${p => p.theme.colors.silver};
 `;
 export const UserName = styled.p`
-  margin: 0;
   margin-bottom: 16px;
   font-size: 24px;
   font-weight: 700;
 `;
 export const UserTag = styled.p`
-  margin: 0;
   margin-bottom: 8px;
   color: ${p => p.theme.colors.gray};
 `;
 export const UserLocation = styled.p`
-  margin: 0;
   color: ${p => p.theme.colors.gray};
 `;
 export const UserStats = styled.ul`
-  margin: 0;
-  padding: 0;
   display: flex;
   list-style: none;
   justify-content: center;
@@ -45,7 +40,7 @@ export const UserStats = styled.ul`
   border-top: 1px solid ${p => p.theme.colors.silver};
 
   & li {
-    flex-grow: 1;
+    width: calc(100% / 3);
     padding: 8px;
 
     &:not(:last-child) {
