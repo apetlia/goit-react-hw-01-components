@@ -5,7 +5,6 @@ export const UserCard = styled.div`
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  border: 1px solid ${p => p.theme.colors.silver};
 `;
 export const UserInfo = styled.div`
   padding: 24px;

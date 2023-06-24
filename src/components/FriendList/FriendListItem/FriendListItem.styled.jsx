@@ -7,13 +7,12 @@ export const Item = styled.li`
   gap: 16px;
   padding: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  border: 1px solid ${p => p.theme.colors.silver};
   border-radius: 5px;
 `;
 export const Status = styled.span`
   width: 16px;
   height: 16px;
-  background-color: ${p => (p.isOnline ? 'green' : 'red')};
+  background-color: ${p => (p.isOnline ? '#1B5E20' : '#B71C1C')};
   border-radius: 50%;
 `;
 

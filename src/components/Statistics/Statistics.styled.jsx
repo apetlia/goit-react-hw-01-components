@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const Section = styled.section`
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  border: 1px solid ${p => p.theme.colors.silver};
   border-radius: 5px;
   overflow: hidden;
 `;
